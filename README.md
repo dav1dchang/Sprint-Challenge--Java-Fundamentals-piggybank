@@ -23,9 +23,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+
+I structured my model and endpoint to match the structure of the data.sql.
+
 2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+
+Compile the program utilizing javac (converting to byte code), create an executable version (JAR file), and then run the JAR file. Javascript's equivalent is all handled by npm starting.
+
 3. Explain how Java being a strongly typed language affected you solution.
+
+I had to follow a rigid typing format in order to appease Java. In comparison, Javascript can handle loose code and doesn't care about the difference between ' and " as well as whether or not you have semicolons, but Java is much more strict in that regard. I had to change a lot of habits.
+
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
+
+Abstract classes can have abstract + non-abstract methods whereas interface classes can have only abstract methods. Abstract classes don't support multiple inheritance whereas interface does. 
+Abstract classes have final, non-final, static, and non-static variables whereas interface has only static and final variables.
+Abstract classes utilize the keyword "extends" whereas interfaces utilize "implements".
+Java interfaces are public by default whereas abstract classes can have members like private and protected.
+
 
 ## Instructions
 
